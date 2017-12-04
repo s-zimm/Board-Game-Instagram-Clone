@@ -13,12 +13,18 @@ var imgs = [
     {
         name: "See Through Meeples",
         src: "https://cf.geekdo-images.com/images/pic1012078_md.jpg"
+    },
+    {
+        name: "Dominion Board Game",
+        src: "https://cf.geekdo-images.com/7mkW_JrUx0PSa4Ame3zzsLE0BVY=/fit-in/246x300/pic394356.jpg"
+    },
+    {
+        name: "Twilight Imperium 4th Edition",
+        src: "https://cf.geekdo-images.com/UxsyZBpFiBNPOppOQ7ILJde_YhY=/fit-in/246x300/pic3727516.jpg"
     }
-]
+];
 
 var navContainer = document.querySelector('.nav-container');
-var navImgs = document.querySelectorAll(NAV_SEL);
-var mainImg = document.querySelector(IMG_SEL);
 
 imgs.forEach(function (nav) {
     var navElement = document.createElement('a');
@@ -27,14 +33,20 @@ imgs.forEach(function (nav) {
     navElement.setAttribute('href', nav.src);
     imgElement.setAttribute('src', nav.src);
     imgElement.setAttribute('alt', nav.name);
+    navElement.setAttribute('data-nav-item', '');
     navElement.appendChild(imgElement);
     navContainer.appendChild(navElement);
 });
+
+var navImgs = document.querySelectorAll(NAV_SEL);
+var mainImg = document.querySelector(IMG_SEL);
+
 
 navImgs.forEach(function (nav) {
     nav.addEventListener('click', function(event) {
         event.preventDefault();
         mainImg.setAttribute('src', nav.getAttribute('href'));
+        mainImg.setAttribute('alt', nav.getAttribute('alt'))
     });
 });
 
