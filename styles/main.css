@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: rgb(172, 172, 172);
+}
+
+header {
+    display: block;
+    margin: 15px auto;
+    border-bottom: solid rgba(175, 175, 175, 0.685) 2px;
+    height: 20%;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    height: 20%;
+}
+
