@@ -24,7 +24,7 @@ header {
     display: flex;
     align-content: center;
     justify-content: center;
-    height: 55%;
+    height: 60%;
 }
 
 img {
@@ -33,12 +33,12 @@ img {
 
 .nav-item {
     display: block;
-    width: 50px;
-    height: 50px;
+    width: 90px;
+    height: 90px;
 
 }
 
 .main-image {
-    width: 75%;
-    height: 75%;
+    width: 60%;
+    height: 60%;
 }

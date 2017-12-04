@@ -1,0 +1,1 @@
+var NAV_SEL = '[data-nav-item]'
