@@ -38,6 +38,12 @@ img {
 
 }
 
+.nav-item-grow {
+    width: 115px;
+    height: 115px;
+    animation: 1s ease;
+}
+
 .main-image {
     width: 60%;
     height: 60%;
