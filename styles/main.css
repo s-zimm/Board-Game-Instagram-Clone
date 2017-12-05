@@ -88,6 +88,7 @@ footer {
 
 .info-container {
     width: 290px;
+    font-size: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -142,6 +143,7 @@ footer {
 .move-right {
     transform: translate(230px);
     transition: all .7s ease;
+    font-size: 16px;
     width: 400px;
     padding: 20px;
 }
