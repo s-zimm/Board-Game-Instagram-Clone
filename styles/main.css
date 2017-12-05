@@ -94,16 +94,22 @@ img {
     border-radius: 20px;
     transform: translate(0px);
     transition: all .5s ease;
-    
+}
+
+.link-container {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+
 }
 
 .move-left {
-    transform: translate(-238px);
+    transform: translate(-230px);
     transition: all .7s ease;
 }
 
 .move-right {
-    transform: translate(238px);
+    transform: translate(230px);
     transition: all .7s ease;
     width: 400px;
     padding: 20px;
