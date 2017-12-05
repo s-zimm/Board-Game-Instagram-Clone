@@ -1,5 +1,6 @@
 var NAV_SEL = '[data-nav-item]';
 var IMG_SEL = '[data-main-image]';
+var INFO_SEL = '[data-main-info]';
 
 var imgs = [
     {
@@ -40,6 +41,7 @@ imgs.forEach(function (nav) {
 
 var navImgs = document.querySelectorAll(NAV_SEL);
 var mainImg = document.querySelector(IMG_SEL);
+var mainInfo = document.querySelector(INFO_SEL);
 
 
 navImgs.forEach(function (nav) {
@@ -49,6 +51,13 @@ navImgs.forEach(function (nav) {
         mainImg.setAttribute('alt', nav.getAttribute('alt'))
     });
 });
+
+mainImg.addEventListener('click', function(event) {
+    event.preventDefault();
+    mainImg.classList.toggle('move-left');
+    mainInfo.classList.toggle('move-right');
+});
+
 
 // navImgs.forEach(function (nav) {
 //     nav.addEventListener('mouseover', function() {
