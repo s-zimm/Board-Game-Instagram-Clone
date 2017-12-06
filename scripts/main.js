@@ -56,6 +56,8 @@ var IMG_SEL = '[data-main-image]';
 var INFO_SEL = '[data-main-info]';
 var IMG = '[data-image]';
 var DESC = '[data-target-p]';
+var LINK_CONTAINER = '[data-link-container]';
+var LINK_TOGGLE = '[data-toggle-link]';
 var navContainer = document.querySelector('.nav-container');
 
 
@@ -77,8 +79,8 @@ var navImgs = document.querySelectorAll(NAV_SEL);
 var mainImg = document.querySelector(IMG_SEL);
 var mainInfo = document.querySelector(INFO_SEL);
 var mainText = document.querySelector(DESC);
-var infoLink = document.querySelector('.link-container');
-var infoLinkToggle = document.querySelector('.link-container-toggle')
+var infoLink = document.querySelector(LINK_CONTAINER);
+var infoLinkToggle = document.querySelector(LINK_TOGGLE)
 var storeLink = document.querySelector('[data-target-store]');
 
 function mainImgLoad (imgs) {
