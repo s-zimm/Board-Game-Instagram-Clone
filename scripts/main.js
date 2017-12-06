@@ -104,6 +104,7 @@ mainImg.addEventListener('click', function(event) {
     event.preventDefault();
     mainImg.classList.toggle('move-left');
     mainInfo.classList.toggle('move-right');
+    mainText.classList.toggle('fadeInFont');
 });
 
 infoLinkToggle.addEventListener('click', function(event) {

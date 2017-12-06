@@ -88,7 +88,7 @@ footer {
 
 .info-container {
     width: 290px;
-    font-size: 10px;
+    font-size: 14px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -103,6 +103,20 @@ footer {
     background-color: rgb(143, 143, 143);
     border-radius: 20px;
     padding: 20px;
+    /* color: rgba(27, 27, 27, 0); */
+}
+
+@keyframes fontFadeIn {
+    0%, 30%, 75%  {
+        color: rgba(27, 27, 27, 0);
+    }
+    100% {
+        color: rgba(27, 27, 27);
+    }
+}
+
+.fadeInFont {
+    animation: fontFadeIn 1s;
 }
 
 .link-container {
@@ -147,3 +161,4 @@ footer {
     width: 400px;
     padding: 20px;
 }
+
