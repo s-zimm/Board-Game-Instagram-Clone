@@ -9,7 +9,7 @@ var imgs = [
         store: 'https://www.amazon.com/Z-Man-Games-ZMG-71100-Pandemic/dp/B00A2HD40E'
     },
     {
-        name: "King of Tokyo",
+        name: "King of Tokyo", 
         src: "https://cf.geekdo-images.com/wOXROwYuEDNoDY6LhhUPGETrSnM=/fit-in/246x300/pic3043734.jpg",
         description: `In King of Tokyo, you play mutant monsters, gigantic robots, and strange aliens—all of whom are destroying Tokyo and whacking each other in order to become the one and only King of Tokyo.
         
@@ -19,7 +19,7 @@ var imgs = [
         store: 'https://www.amazon.com/Z-Man-Games-ZMG-71100-Pandemic/dp/B00A2HD40E'
     },
     {
-        name: "Coup Game",
+        name: "Coup Game", // I kill you!!! 
         src: "https://cf.geekdo-images.com/BnJhQjCjNI0iVEJVZpTIGkvpoqw=/fit-in/1200x630/pic2016054.jpg",
         description: `You are head of a family in an Italian city-state, a city run by a weak and corrupt court. You need to manipulate, bluff and bribe your way to power. Your object is to destroy the influence of all the other families, forcing them into exile. Only one family will survive...
         In Coup, you want to be the last player with influence in the game, with influence being represented by face-down character cards in your playing area.`,
