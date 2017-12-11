@@ -138,14 +138,4 @@ $infoLinkToggle.on('click', function(event) {
 
 
 
-// navImgs.forEach(function (nav) {
-//     nav.addEventListener('mouseover', function() {
-//         nav.classList.toggle('nav-item-grow');
-//     });
-// });
-
-// navImgs.forEach(function (nav) {
-//     nav.addEventListener('mouseleave', function() {
-//         nav.classList.toggle('nav-item-grow');
-//     });
-// });
+// New comment added and old comments removed
